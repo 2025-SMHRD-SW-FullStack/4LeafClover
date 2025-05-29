@@ -47,6 +47,8 @@ function App() {
           <Memberinfo team={"두산 베어스"} name={"곽빈"}/>
           <Memberinfo team={"한화 이글스"} name={"류현진"}/>
         </div>
+        
+        
     </>
   )
 }
