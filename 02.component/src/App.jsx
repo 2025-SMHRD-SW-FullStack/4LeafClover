@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Menubox from './components/Menubox'
 import Memberinfo from './components/Memberinfo'
+import Double from './components/Double'
+
 
 /*
   1. Component(컴포넌트)
@@ -40,14 +42,18 @@ function App() {
       <Menubox menuNm={"오렌지에이드"} price={3500}/> */}
 
       {/* 실습) 야구 대표 투수 정보 출력해보기(야구팀명, 투수명) */}
-        <div className='big'>
+        {/* <div className='big'>
 
           <Memberinfo team={"KIA 타이거즈"} name={"강병우"}/>
           <Memberinfo team={"SSG 랜더스"} name={"김광현"}/>
           <Memberinfo team={"두산 베어스"} name={"곽빈"}/>
           <Memberinfo team={"한화 이글스"} name={"류현진"}/>
-        </div>
         
+        
+        
+        </div> */}
+        
+        <Double/>
         
     </>
   )

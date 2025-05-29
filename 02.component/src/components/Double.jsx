@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Count = ({ }) => {
+const Double = () => {
     const [count, setCount] = React.useState(0);
     const increase = () => {
         setCount(count + 1);
@@ -41,4 +41,4 @@ const Count = ({ }) => {
     )
 }
 
-export default count
+export default Double
