@@ -1,0 +1,31 @@
+
+
+.big{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 1300px;
+  height: 400px;
+
+}
+
+#box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 150px;
+  height: 300px;
+  background-color: rgb(200, 233, 255);
+  border: solid rgb(61, 120, 247) 2px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+#inner-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:150px;
+  height: 60px;
+  font-size: 20px;
+}
