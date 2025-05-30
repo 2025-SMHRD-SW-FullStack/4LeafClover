@@ -29,3 +29,13 @@
   height: 60px;
   font-size: 20px;
 }
+
+.box{
+  width: 230px;
+  height: 300px;
+  border: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

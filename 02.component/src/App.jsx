@@ -5,6 +5,9 @@ import './App.css'
 import Menubox from './components/Menubox'
 import Memberinfo from './components/Memberinfo'
 import Double from './components/Double'
+import LikeCount from './components/LikeCount'
+import LikeCount2 from './components/LikeCount2'
+import BattleNumber from './components/BattleNumber'
 
 
 /*
@@ -53,8 +56,12 @@ function App() {
         
         </div> */}
         
-        <Double/>
-        
+        {/* <Double/> */}
+        {/* <LikeCount/> */}
+        {/* state 실습 3 */}
+        {/* <LikeCount2/> */}
+        {/* state 실습 4 */}
+        <BattleNumber/>
     </>
   )
 }
