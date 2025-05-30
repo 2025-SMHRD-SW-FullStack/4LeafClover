@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    display: block;
+}
+.diceGame{
+    padding: 20px;
+    border: 1px solid black;
+}
