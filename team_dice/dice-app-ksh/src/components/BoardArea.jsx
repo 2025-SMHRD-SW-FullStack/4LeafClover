@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Board from './Board';
 
@@ -11,3 +12,18 @@ const BoardArea = ({ playerNum, comNum, isRolling }) => {
 };
 
 export default BoardArea;
+=======
+import React from 'react'
+import Board from './Board'
+
+const BoardArea = () => {
+    return (
+        <div>
+            <Board></Board>
+            <Board></Board>
+        </div>
+    )
+}
+
+export default BoardArea
+>>>>>>> 097607f55283bbd136b31b504ae0ef2ca93a9693

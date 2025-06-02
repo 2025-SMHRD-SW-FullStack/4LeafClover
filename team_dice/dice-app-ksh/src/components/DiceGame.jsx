@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import ButtonArea from './ButtonArea';
 import BoardArea from './BoardArea';
@@ -60,3 +61,21 @@ export const DiceGame = () => {
 };
 
 export default DiceGame;
+=======
+import React from 'react'
+import ButtonArea from './ButtonArea'
+import BoardArea from './BoardArea'
+
+
+export const DiceGame = () => {
+    
+    return (
+
+        <div className='diceGame'>
+            <h1>주사위게임</h1>
+            <ButtonArea/>
+            <BoardArea/>
+        </div>
+    )
+}
+>>>>>>> 097607f55283bbd136b31b504ae0ef2ca93a9693
