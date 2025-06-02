@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import ButtonArea from './ButtonArea';
-import BoardArea from './BoardArea';
+import ButtonArea2 from './ButtonArea2';
+import BoardArea2 from './BoardArea2';
 
-export const DiceGame = () => {
+export const DiceGame2 = () => {
     const [playerNum, setPlayerNum] = useState(1);
     const [comNum, setComNum] = useState(1);
 
@@ -44,10 +44,10 @@ export const DiceGame = () => {
     };
 
     return (
-        <div className='diceGame'>
+        <div className='diceGame2'>
             <h1 style={{marginTop:'1px'}} >주사위 게임</h1>
-            <ButtonArea rollDice={rollDice} reset={reset} />
-            <BoardArea
+            <ButtonArea2 rollDice={rollDice} reset={reset} />
+            <BoardArea2
                 playerNum={playerNum}
                 comNum={comNum}
                 isRolling={isRolling}  //상태값으로 전달
@@ -59,4 +59,4 @@ export const DiceGame = () => {
     );
 };
 
-export default DiceGame;
+export default DiceGame2;

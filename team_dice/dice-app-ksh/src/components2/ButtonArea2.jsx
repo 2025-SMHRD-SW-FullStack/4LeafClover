@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ButtonArea = ({ rollDice, reset }) => {
+const ButtonArea2 = ({ rollDice, reset }) => {
     return (
         <div style={{ display: 'flex', justifyContent: 'center',gap:'20px', margin: '20px 0' }}>
             <button
@@ -19,4 +19,4 @@ const ButtonArea = ({ rollDice, reset }) => {
     );
 };
 
-export default ButtonArea;
+export default ButtonArea2;

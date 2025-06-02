@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     text-align: center;
     display: block;
@@ -18,16 +17,78 @@ body {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
-=======
-body{
-    text-align: center;
-    display: block;
 }
-.diceGame{
+
+/* ----------------------------------------------------------- */
+
+.diceGame2 {
     padding: 20px;
     border: 1px solid black;
->>>>>>> 097607f55283bbd136b31b504ae0ef2ca93a9693
+}
+
+.wrapper {
+    width: 105px;
+    height: 105px;
+    perspective: 1000px;
+}
+
+.cube {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotateXYZ 10s infinite linear;
+    margin: auto;
+}
+
+.cube>div {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 4px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.one {
+    transform: translateZ(35px);
+}
+
+.two {
+    transform: rotateX(90deg) rotateY(180deg) translateZ(35px);
+}
+
+.three {
+    transform: rotateX(0deg) rotateY(90deg) translateZ(35px);
+}
+
+.four {
+    transform: rotateX(-180deg) rotateY(-90deg) translateZ(35px);
+}
+
+.five {
+    transform: rotateX(90deg) translateZ(35px);
+}
+
+.six {
+    transform: rotateX(-90deg) translateZ(35px);
+}
+
+@keyframes rotateXYZ {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
 }

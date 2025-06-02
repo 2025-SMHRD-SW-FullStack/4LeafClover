@@ -1,15 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import { DiceGame } from './components/DiceGame'
+// import { DiceGame } from './components/DiceGame'
+import { DiceGame2 } from './components2/DiceGame2'
 
 function App() {
-<<<<<<< HEAD
-=======
-  const [count, setCount] = useState(0)
-
->>>>>>> 097607f55283bbd136b31b504ae0ef2ca93a9693
   return (
-    <DiceGame/>
+    <DiceGame2 />
   )
 }
 
