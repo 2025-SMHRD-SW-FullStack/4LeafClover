@@ -1,0 +1,50 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.re {
+  margin-left: 5px;
+  background-color: crimson;
+}
+
+button {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: gray;
+  border: none;
+}
+
+.ba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+
+}
+
+.b, .bp {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  text-align: center;
+}
+
+.main {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px;
+}
