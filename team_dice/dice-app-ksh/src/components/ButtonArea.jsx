@@ -1,0 +1,22 @@
+import React from 'react';
+
+const ButtonArea = ({ rollDice, reset }) => {
+    return (
+        <div style={{ display: 'flex', justifyContent: 'center',gap:'20px', margin: '20px 0' }}>
+            <button
+                onClick={rollDice}
+                style={{ border:'2px solid black', backgroundColor: '#4CAF50', color: 'white', padding: '10px 20px' }}
+            >
+                던지기!
+            </button>
+            <button
+                onClick={reset}
+                style={{ border:'2px solid black', backgroundColor: '#e53935', color: 'white', padding: '10px 20px' }}
+            >
+                RESET
+            </button>
+        </div>
+    );
+};
+
+export default ButtonArea;
