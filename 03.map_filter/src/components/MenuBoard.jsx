@@ -15,7 +15,8 @@ const MenuBoard = () => {
         
         if(item!=="ALL"){
             setData(menuData.filter((menu)=>menu.category==item));
-
+            // menus는 가장 최근에 조회한 정보가 저장되어있음
+            // 'ALL'을 누르면 최근 정보로만 조회
         }else{
             setData(menuData);
         }
